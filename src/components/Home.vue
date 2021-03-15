@@ -17,7 +17,7 @@ export default {
   },
    methods:{
    goToHome(){
-   this.$router.push('/login'); 
+   this.$router.push('/pages/login'); 
       }
   },
   props: {

@@ -14,7 +14,8 @@
     "express": "^4.17.1",
     "path": "^0.12.7",
     "vue": "^2.6.11",
-    "vue-router": "^3.5.1"
+    "vue-router": "^3.5.1",
+    "vuesax": "^3.12.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
