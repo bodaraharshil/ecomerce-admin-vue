@@ -1,27 +1,17 @@
 <template>
-  <div>
-    <h1>Datatatatatat</h1>
-    <button @click="goToHome()">hjkhkjhk</button>
-  </div>
-  <!-- <Login/> -->
+<div>
+  <h1>Home page</h1>
+  <button v-on:click="gotLoginpage()">Login  page</button>
+</div>
 </template>
 
 <script>
-
-// import Login from '../pages/Login/Login'
-
 export default {
   name: 'Home',
-    components: {
-    // Login
-  },
-   methods:{
-   goToHome(){
-   this.$router.push('/pages/login'); 
-      }
-  },
-  props: {
-    msg: String
+ methods: {
+    gotLoginpage:function(){
+      this.$router.push('/pages/login'); 
+    }
   }
 }
 </script>

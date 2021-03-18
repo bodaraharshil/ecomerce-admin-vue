@@ -1,3 +1,3 @@
 <template>
-  <p class="text-pink-500">hgfhjklljhg</p>
+  <div>Login page</div>
 </template>
